@@ -1,0 +1,109 @@
+/* profile.css */
+html {
+  background-color: pink;
+}
+.img-circle{
+  border-radius: 50%;
+  position:relative;
+}
+body {
+  background:pink;
+  color: black;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+strong {
+  color: #222324;
+}
+
+.navbar {
+  background: #e16879;
+}
+
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #e16879;
+  border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #e05164;
+  border-color: #e05164;
+}
+
+.card {
+  border-color: #ccc;
+}
+
+.card-title {
+  color: #e16879;
+  font-weight: 300;
+}
+
+.card-block small {
+  float: right;
+}
+
+.bg-image {
+  background: url(../fall.jpg);
+  background-size: 100%;
+  height: 1000px;
+}
+h4{
+  color: pink;
+}
+
+.card-title {
+ font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px
+
+}
+
+.fa fa-map-marker {
+font-family: 'Permanent Marker', cursive;
+}
+
+
+.sheepa-box {
+  text-align: right;
+}
+
+.sheepa{
+  width: 300px;
+  height: auto;
+}
+
+.sheep-box{
+  text-align: left;
+}
+.sheepb{
+  width: 300px
+  height:auto ;
+}
+
+.wool-text {
+  line-height: 35px;
+  font-size: 24px;
+}
+
+
+
+
+.description {
+  background-image: url("/pattern.png");
+  background-repeat: repeat-x;
+}
+
+/* Additional stuff for index.html page */
+.jumbotron {
+  background-image: url("/fall.jpg");
+  background-size: cover;
+  color: white;
+}
